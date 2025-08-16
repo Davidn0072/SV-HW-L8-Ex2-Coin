@@ -1,0 +1,54 @@
+.MainDiv
+{
+  width: 350px; 
+  /*height: 170px;   */
+  margin: 0 auto;   
+  border: 1px solid green;
+  margin-top: 20px;
+  padding: 20px;
+}
+.UserInput
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.UserInputFirstRow
+{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.UserInputSecondRow
+{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.ctrlInputAndLbl
+{
+  justify-content: space-between;
+  width: 50%;
+  display: flex;
+  flex-direction: column;  
+}
+.BtnLogin
+{
+  height: 80px;
+  gap: 20px;
+  width: 100%;
+  background-color: #4a90e2;
+}
+.ctrlInput
+{
+  border: 1px solid; 
+  height: 28px;
+  width: 100%;
+  background-color: #4a90e2;
+}
+.lblctrlInput
+{
+  width: 100px;
+}

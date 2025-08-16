@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css"  >
+   <title>EX-No-3-Coin</title>
+</head>
+
+<body>
+  <div class="MainDiv">
+    <div class="GenUserInput">
+      <div class="UserInput">
+
+        <div class="UserInputFirstRow">
+ 
+          <div class="ctrlInputAndLbl">
+            <label class="lblctrlInput" for="CoinSelect">Coin Kind</label>
+              <select class="ctrlInput" name="CoinSelect" id="CoinSelect">
+                <option value="3.9">Dolar 3.9</option>
+                <option value="4.2">Euro 4.2</option>
+                <option value="5">Lira St</option>
+              </select>
+          </div>
+
+          <div class="ctrlInputAndLbl">
+            <label class="lblctrlInput" for="NIS">NIS Amount</label>
+            <input class="ctrlInput" type="text" id="NIS" name="NIS" >
+          </div>
+
+        </div>
+        <div class="UserInputSecondRow">
+          <div class="ctrlInputAndLbl">
+            <button onclick=CalcClick() class="BtnLogin" id="myButton1" >Calc</button>
+          </div>
+          <div class="ctrlInputAndLbl"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+  <script src="script.js"></script>
+</html>
